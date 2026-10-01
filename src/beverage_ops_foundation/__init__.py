@@ -1,5 +1,6 @@
-"""技能赛训协作基础服务的服务端基础包。"""
+"""品牌权益履约后台服务。"""
 
+from .brand_service import BrandConflictError, BrandService
 from .service import DomainService
 
-__all__ = ["DomainService"]
+__all__ = ["DomainService", "BrandService", "BrandConflictError"]
